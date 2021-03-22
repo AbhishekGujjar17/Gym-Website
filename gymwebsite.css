@@ -1,0 +1,138 @@
+body{
+
+    margin: 0px;
+    padding: 0px;
+    background: url('GYM_img/aunty.jpg');
+    font-family: 'Baloo Bhai 2', cursive;
+    color: white;
+    
+}
+
+.div1{
+
+    
+    
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    
+    /*border: 2px solid green;*/
+}
+
+.div1 img{
+
+    width:117px;
+    filter: invert(100%);
+}
+
+.div1 div{
+    text-align: center;
+    line-height: 19px;
+    font-size: 21px;
+}
+
+.div2{
+
+    display: block;
+    width: 43%;
+    margin: 29px auto;
+    /*border: 2px solid red;*/
+}
+
+.div3{
+    color: white;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    right: 34px;
+    
+    /*border: 2px solid blue;*/
+}
+
+.btn{
+    margin:0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 12px;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 10px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.btn:hover{
+
+    background-color: rgb(138, 130, 130);
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+
+    display: inline-block;
+    font-size: 20px;
+    
+    
+}
+
+.navbar li a{
+
+    padding: 24px 23px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.navbar li a:hover,.navbar li a.active{
+
+    text-decoration: underline;
+    color: rgba(122, 108, 108, 0.822);
+
+
+
+}
+
+.container{
+    border: 2px solid white;
+    margin: 80px 48px;
+    padding: 60px;
+    width: 33%;
+    border-radius: 22px;
+}
+.container h1{
+    text-align: center;
+}
+
+.formgroup input{
+
+    text-align: center;
+    width: 504px;
+    border: 2px solid black;
+    display: block;
+    padding: 2px;
+    border-radius: 10px;
+    font-size: 25px;
+    margin: 7px auto;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.container button{
+
+    
+    width: 102%;
+    margin: 20px auto;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+
+    display: block;
+}
+
+.container button:hover{
+
+    background-color: rgb(95, 92, 92);
+}
